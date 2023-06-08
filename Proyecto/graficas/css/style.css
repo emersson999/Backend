@@ -1,0 +1,273 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h3{
+   color: black !important;
+}
+.green{
+    background-color: #66bfa3 !important;
+}
+#content-main{
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+}
+table th, table td{
+   text-align: center;
+}
+#content-main .menu-main{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+}
+#content-main .menu-main img{
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+#content-main .menu-main nav a i{
+    color: rgba(22, 22, 140, 0.346);
+    margin: 17px auto;
+    font-size: 22px;
+}
+
+#content-main .menu-main .icon-android{
+    position: absolute;
+    bottom: 50px;
+    margin-top: 250px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#content-main .menu-main .icon-android{
+    color: rgba(29, 29, 94, 0.763);
+    text-align: center;
+    line-height: 44px;
+    font-size: 23px;
+}
+
+
+/* Sección shop cars*/
+
+#content-main .shop_cars{
+    width: 16%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(240, 231, 231, 0.998);
+}
+#content-main .shop_cars h2{
+    color: rgb(128, 127, 126);
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 120px;
+}
+#content-main .shop_cars .element_ind{
+    width: 210px;
+    height: 210px;
+    margin: 30px auto;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.ratate_car{
+    transform: scaleX(-1);
+}
+
+#content-main .shop_cars .element_ind img{
+    width: 85%;
+    margin: 50px auto 16px auto;
+    filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.7));
+}
+
+#content-main .shop_cars .element_ind span{
+    color: rgba(80, 78, 76, 0.55);
+    font-size: 18px;
+    font-weight: 400;
+    float: left;
+    padding-left: 15px;
+}
+
+/*Sección de graficas*/
+
+#content-main .graphic-main{
+    width: 44%;
+    height: 100%;
+    background-color: rgba(226, 226, 226);
+}
+
+#content-main .graphic-main .content-card-one{
+    margin-top: 20px;
+    width: 90%;
+    height: 135px;
+    display: inline-flex;
+    margin-left: 5%;
+}
+
+#content-main .graphic-main .content-card-one .indiv{
+    margin: auto;
+    width: 49%;
+    height: 100%;
+    background-color: white;
+    display: inline-flex;
+    box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+}
+#content-main .graphic-main .content-card-one .indiv .left{
+   margin-right: 2%;
+}
+#content-main .graphic-main .content-card-one .indiv .icon-ind{
+    width: 70px;
+    height: 70px;
+    margin: 32.5px;
+    border-radius: 14px;
+    background-color: #f0382e;
+    text-align: center !important;
+}
+#content-main .graphic-main .content-card-one .indiv .icon-ind i{
+    color: white;
+   line-height: 73px;
+   font-size: 32px;
+}
+#content-main .graphic-main .content-card-one .indiv .cont-info{
+    width: 125px;
+}
+#content-main .graphic-main .content-card-one .indiv h3{
+   font-size: 42px;
+   padding-top: 45px;
+   font-weight: 600;
+}
+
+#content-main .graphic-main .content-card-one .indiv h3 span{
+    color: rgba(80, 78, 76, 0.55);
+    font-size: 13px;
+    font-weight: 400;
+    display: block; 
+    padding-top: -10px;
+ }
+ #content-main .graphic-main .content-card-one .indiv h4{
+    color: rgba(153, 153, 153);
+    font-size: 15px;
+    font-weight: 400; 
+    margin-top: 15px;
+    margin-left: 28px;
+    padding-top: -10px;
+ }
+ #content-main .graphic-main .content-card-one .indiv h4 span{
+    color: rgba(101, 101, 101);
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ #content-main .graphic-main .graphic{
+    margin-top: 15px;
+    width: 90%;
+    height: 400px;
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 14px;
+ }
+ #content-main .graphic-main .graphic_2{
+    margin-top: 15px;
+    width: 90%;
+    height: 220px;
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 14px;
+ }
+ #content-main .graphic-main .graphic_2 .title_graphic{
+    width: 100%;
+    height: 90px;
+    display: inline-flex;
+ }
+ #content-main .graphic-main .graphic_2 .title_graphic .left_graphic h2{
+    padding-top: 25px;
+    padding-left: 25px;
+ }
+ #content-main .graphic-main .graphic_2 .title_graphic .left_graphic{
+    width: 220px;
+ }
+ #content-main .graphic-main .graphic_2 .title_graphic span{
+    padding-top: 10px;
+    padding-left: 25px;
+    color: rgba(101, 101, 101);
+    font-size: 18px;
+    font-weight: 400;
+ }
+ #content-main .graphic-main .graphic_2 .title_graphic .right_graphic{
+   float: right;
+   margin-top: 25px;
+   margin-left: 55%;
+ }
+ #content-main .graphic-main .graphic_2 .content-graphg{
+    width: 100%;
+    height: 90px;
+    display: inline-flex;
+    margin-top: 40px;
+ }
+ #content-main .graphic-main .graphic_2 h2{
+    font-size: 18px;
+ }
+ #content-main .graphic-main .graphic_2 .lf-g{ 
+    width: 25%;
+    margin-left: 25px;
+    height: 100%;
+ }
+ #content-main .graphic-main .graphic_2 .center-g{ 
+    width: 25%;
+    height: 70%;
+    margin-top: 4%;
+ }
+ #content-main .graphic-main .graphic_2 .lf-g h2 span{
+    color: rgba(101, 101, 101);
+    font-size: 18px;
+    font-weight: 400;
+ }
+ #content-main .graphic-main .graphic_2 .right-g{
+    width: 43%;
+    height: 70%;
+    margin-top: 4%;
+ }
+ #content-main .graphic-main .graphic_2 .right-g .progress{
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+ }
+ #content-main .graphic-main .graphic_2 .right-g .progress-bar{
+    background-color: #66bfa3;
+    border-radius: 50px;
+ }
+ #content-main .graphic-main .graphic #myDiv{
+    max-width: 90%;
+    height: 90%;
+    margin:  5% auto;
+    border-radius: 14px;
+ }
+
+ /*Objetos tridimensionales*/
+ #content-main .tridimensional{
+    width: 33%;
+    height: 100%;
+    border: solid 2px;
+ }
+ #content-main .tridimensional .ind-3d{
+   width: 70%;
+   height: 280px;
+   margin: 25px auto;
+   background-color: #66bfa3;
+}
+
+ #content-main .tridimensional model-viewer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(9, 49, 83);
+ }
+
+ 
