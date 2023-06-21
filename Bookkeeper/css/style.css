@@ -1,0 +1,25 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav-pills li a:hover{
+    background-color: blue;
+}
+.container-fluid{
+    width: 80% !important;
+    margin-left: 0% !important;
+}
+.subrayando{
+    text-decoration: line-through;
+}
+/* .fondo{
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+} */
+/* .container-fluid{
+    overflow: hidden;
+} */
